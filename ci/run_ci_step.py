@@ -1,7 +1,7 @@
 import subprocess
 import sys
 
-result=subrocess.run(["ls"])
+result=subprocess.run(["ls"])
 if result.returncode!=0:
     print("UNABLE TO RUN")
     sys.exit(1)
